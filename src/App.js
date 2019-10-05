@@ -1,9 +1,14 @@
-import React from "react";
-import "./App.css";
-import ChatList from "./components/ChatList";
+import React from 'react';
+import Chat from './components/Chat';
+import GlobalStyle from './styles/global';
 
 function App() {
-  return <ChatList />;
+  return (
+    <>
+      <Chat />
+      <GlobalStyle />
+    </>
+  );
 }
 
 export default App;
